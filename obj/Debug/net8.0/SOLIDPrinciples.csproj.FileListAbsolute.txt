@@ -1,0 +1,15 @@
+C:\git\SOLIDPrinciples\bin\Debug\net8.0\SOLIDPrinciples.exe
+C:\git\SOLIDPrinciples\bin\Debug\net8.0\SOLIDPrinciples.deps.json
+C:\git\SOLIDPrinciples\bin\Debug\net8.0\SOLIDPrinciples.runtimeconfig.json
+C:\git\SOLIDPrinciples\bin\Debug\net8.0\SOLIDPrinciples.dll
+C:\git\SOLIDPrinciples\bin\Debug\net8.0\SOLIDPrinciples.pdb
+C:\git\SOLIDPrinciples\obj\Debug\net8.0\SOLIDPrinciples.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\SOLIDPrinciples\obj\Debug\net8.0\SOLIDPrinciples.AssemblyInfoInputs.cache
+C:\git\SOLIDPrinciples\obj\Debug\net8.0\SOLIDPrinciples.AssemblyInfo.cs
+C:\git\SOLIDPrinciples\obj\Debug\net8.0\SOLIDPrinciples.csproj.CoreCompileInputs.cache
+C:\git\SOLIDPrinciples\obj\Debug\net8.0\SOLIDPrinciples.dll
+C:\git\SOLIDPrinciples\obj\Debug\net8.0\refint\SOLIDPrinciples.dll
+C:\git\SOLIDPrinciples\obj\Debug\net8.0\SOLIDPrinciples.pdb
+C:\git\SOLIDPrinciples\obj\Debug\net8.0\SOLIDPrinciples.genruntimeconfig.cache
+C:\git\SOLIDPrinciples\obj\Debug\net8.0\ref\SOLIDPrinciples.dll
+C:\git\SOLIDPrinciples\obj\Debug\net8.0\SOLIDPrinciples.sourcelink.json
