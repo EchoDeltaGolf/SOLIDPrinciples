@@ -19,6 +19,9 @@ class Program
 
         var truck = new Truck();
         TestDrive(truck);
+
+        var aircraft = new Aircraft();
+        TestDrive(aircraft); // side effect
         #endregion
 
         #region Single Responsibility and Open Close Principles

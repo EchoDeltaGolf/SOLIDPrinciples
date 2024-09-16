@@ -13,3 +13,8 @@ public class Truck : Vehicle
 {
     public override void Drive() => Console.WriteLine("Drive a truck.");
 }
+
+public class Aircraft : Vehicle
+{
+    public override void Drive() => throw new NotImplementedException();
+}
