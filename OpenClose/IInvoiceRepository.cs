@@ -1,4 +1,4 @@
-namespace OpenClose;
+namespace OpenClosed;
 using SingleResponsibility;
 interface IInvoiceRepository
 {

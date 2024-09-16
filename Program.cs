@@ -1,29 +1,29 @@
 ﻿namespace SOLIDPrinciples;
 
 using LiskovSubstitution;
-using OpenClose;
+using OpenClosed;
 using SingleResponsibility;
 
 class Program
 {
-    public static void TestDrive(Vehicle vehicle)
-    {
-        vehicle.Drive();
-    }
-
+    #region Liskov Substitution Principle
+    // public static void TestDrive(Vehicle vehicle)
+    // {
+    //     vehicle.Drive();
+    // }
+    #endregion
     static void Main(string[] args)
     {
         #region Liskov Substitution Principle
-        var car = new Car();
-        TestDrive(car);
+        // var car = new Car();
+        // TestDrive(car);
 
-        var truck = new Truck();
-        TestDrive(truck);
+        // var truck = new Truck();
+        // TestDrive(truck);
 
-        var aircraft = new Aircraft();
-        TestDrive(aircraft); // side effect
+        // var aircraft = new Aircraft();
+        // TestDrive(aircraft); // side effect
         #endregion
-
         #region Single Responsibility and Open Close Principles
         // var invoice = new Invoice {
         //     InvoiceNo = 1,
@@ -42,10 +42,10 @@ class Program
         // repo = new JSONInvoiceRepository();
         // repo.Save(invoice);
         #endregion
-
+        #region Open Closed Principle
         // var fileInvoiceRepo = new FileInvoiceRepository();
         // fileInvoiceRepo.Save(invoice);
-
+        #endregion
         Console.WriteLine("Hello, World!");
     }
 }
