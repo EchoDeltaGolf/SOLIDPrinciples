@@ -3,7 +3,7 @@ using InterfaceSegregation;
 using LiskovSubstitution;
 using OpenClosed;
 using SingleResponsibility;
-
+using DependencyInversion;
 class Program
 {
     #region Liskov Substitution Principle
@@ -14,6 +14,10 @@ class Program
     #endregion
     static void Main(string[] args)
     {
+        #region Dependency Inversion Principle
+        var logger = new Logger(new DatabaseService());
+        logger.Log("Hello!");
+        #endregion
         #region Interface Segregation Principle
         // var aircraft = new InterfaceSegregation.Aircraft();
         // aircraft.Run();
@@ -54,6 +58,5 @@ class Program
         // var fileInvoiceRepo = new FileInvoiceRepository();
         // fileInvoiceRepo.Save(invoice);
         #endregion
-        Console.WriteLine("Hello, World!");
     }
 }
