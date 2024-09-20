@@ -1,5 +1,5 @@
 namespace SingleResponsibility;
-using OpenClose;
+using OpenClosed;
 public class FileInvoiceRepository : IInvoiceRepository
 {
     public void Save(Invoice invoice)
