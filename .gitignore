@@ -11,8 +11,8 @@
 *.suo
 *.user
 *.sln.docstates
-*.AssemblyInfo.cs
-*.AssemblyInfoInputs.cache
+obj/Debug/net8.0/*.AssemblyInfo.cs
+obj/Debug/net8.0/*.AssemblyInfoInputs.cache
 
 # Build results
 [Dd]ebug/
