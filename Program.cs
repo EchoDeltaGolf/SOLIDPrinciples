@@ -1,5 +1,5 @@
 ﻿namespace SOLIDPrinciples;
-
+using InterfaceSegregation;
 using LiskovSubstitution;
 using OpenClosed;
 using SingleResponsibility;
@@ -14,6 +14,14 @@ class Program
     #endregion
     static void Main(string[] args)
     {
+        #region Interface Segregation Principle
+        // var aircraft = new InterfaceSegregation.Aircraft();
+        // aircraft.Run();
+        // aircraft.Fly();
+
+        // var car = new InterfaceSegregation.Car();
+        // car.Run();
+        #endregion
         #region Liskov Substitution Principle
         // var car = new Car();
         // TestDrive(car);
