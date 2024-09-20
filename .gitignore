@@ -14,3 +14,5 @@ obj/SOLIDPrinciples.csproj.nuget.g.props
 obj/SOLIDPrinciples.csproj.nuget.dgspec.json
 obj/project.nuget.cache
 obj/project.assets.json
+obj/Debug/net8.0/SOLIDPrinciples.AssemblyInfo.cs
+obj/Debug/net8.0/SOLIDPrinciples.AssemblyInfo.cs
